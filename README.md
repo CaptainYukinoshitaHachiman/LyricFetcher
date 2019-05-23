@@ -19,7 +19,10 @@ Options:
 ```shell
 git clone https://github.com/CaptainYukinoshitaHachiman/LyricFetcher.git && cd LyricFetcher
 swift build -c release
+# macOS
 sudo cp ./.build/x86_64-apple-macosx/release/LyricFetcher /usr/local/bin
+# Ubuntu
+sudo cp ./.build/x86_64-unknown-linux/release/LyricFetcher /usr/local/bin
 ```
 ### Dependencies
 #### [ExifTool](http://owl.phy.queensu.ca/~phil/exiftool/)
